@@ -23,15 +23,15 @@ $ alter session set container = ORCLPDB;
 
 Create User:
 ```sh
-create user user_name identified by password;
+$ create user user_name identified by password;
 ```
 
 Switch user:
 ```sh
-conn user_name/password@localhost:1521/orclpdb
+$ conn user_name/password@localhost:1521/orclpdb
 ```
 
-Run Script
+Run Script:
 ```sh
-@tictactoe
+$ @tictactoe
 ```
