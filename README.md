@@ -14,6 +14,8 @@ $ sqlplus '/ as sysdba'
 
 Triggers can't be created on SYS user. Hence, a new user should be
 created. Create new user using following commands:
+
+
 Switch to Pluggable database (ORCLPDB)
 ```sh
 $ alter session set container = ORCLPDB;
